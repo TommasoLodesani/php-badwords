@@ -35,11 +35,11 @@ $testo_censored = str_replace($badWord, '***', $testo);
 <p>la badWord è <?php echo $badWord ?> </p>
 <h3>La lunghezza del testo è di <?php echo strlen($testo) ?> caratteri </h3>
 
-<!-- <form action="" method="GET">
+<form action="" method="GET">
     <label for="input">Bad Word</label>
-    <input type="text" name="badWord " id="input">
+    <input type="text" name="badWord" id="input">
     <button>Censura</button>
-</form> -->
+</form>
 
 <h1>Il testo censurato è:</h1>
 <p><?php echo $testo_censored ?></p>
